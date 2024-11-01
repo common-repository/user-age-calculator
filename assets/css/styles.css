@@ -1,0 +1,124 @@
+#uac-widget *{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#uac-widget {
+	border: 1px solid #f0f0f0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+}
+
+#uac-widget .uac-header1, .uac-header2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f0f0f0;
+	color: #222;
+	font-size: 14px;
+	height: 50px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#uac-widget .uac-dob-container1, 
+#uac-widget .uac-dob-container2,
+#uac-widget .uac-time-container{
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
+}
+
+#uac-widget .uac-dob-container1 {
+	padding-top: 20px;
+}
+
+#uac-widget .uac-time-container{
+	padding-top: 20px;
+}
+
+#uac-widget .uac-dob-container2 {
+	padding: 20px 0 0 0;
+}
+
+#uac-widget .label,
+#uac-widget .uac_time_label1,
+#uac-widget .uac_time_label2{
+	margin-right: 15px;
+	width: 20%;
+	text-align: right;
+}
+
+#uac-widget select, #uac-widget input {
+	height: 35px;
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	border-radius: 5px;
+	padding-left: 7px;
+}
+
+#uac-widget .uac-birth-date, #uac-widget .uac-hour {
+	width: 70px;
+	margin-right: 7px;
+	padding: 5px;
+	line-height: 14px;
+}
+
+#uac-widget .uac-birth-month, #uac-widget .uac-minute {
+	width: 100px;
+	margin-right: 7px;
+	padding: 5px;
+	line-height: 14px;
+}
+
+#uac-widget .uac-ampm {
+	width: 100px;
+	padding: 5px;
+	line-height: 14px;
+}
+
+#uac-widget input {
+	width: 100px;
+}
+
+#uac-widget .uac-footer1, .uac-footer2 {
+	display: flex;
+	justify-content: center;
+	background-color: #f0f0f0;
+	align-items: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 50px;
+}
+
+#uac-widget .uac-submit-button {
+	height: 35px;
+	border-radius: 5px;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+}
+
+#uac-widget .uac-message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+#uac-widget .uac-spacer-10 {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#uac-widget .uac-hide-footer {
+	background-color: unset;
+	border: unset;
+}
